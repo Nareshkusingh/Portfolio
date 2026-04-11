@@ -260,13 +260,37 @@ nav a{
     font-size: 0.75rem;
     margin-right: 5px;
 }
-@media screen and(max-weidth:1200px){
+
+@media (max-width: 992px){
+
     .main-container{
-        grid-template-columns: 1fr;
+        display: flex;
+        flex-direction: column;
+        padding: 15px;
+        gap: 20px;
+    }
+
+    .sidebar{
+        width: 100%;
+        position: static;
+    }
+
+    .main-content{
+        width: 100%;
         padding: 20px;
     }
-    .sidebar{
-        position: static;
-        height: auto;
+
+    nav{
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .project-container{
+        grid-template-columns: 1fr;
+    }
+
+    .grid-container{
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
     }
 }
