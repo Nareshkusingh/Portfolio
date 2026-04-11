@@ -96,8 +96,6 @@ body{
     filter: brightness(0) invert(0);
 }
 
-/* main-content */
-/* nevigation */
 
 #nevigation{
      border-bottom: 2px solid #3a3a3a;
@@ -141,7 +139,6 @@ nav a{
     margin-top: 40px;
 }
 
-/* skills section */
 
 .grid-container{
     display: grid;
@@ -172,7 +169,6 @@ nav a{
     box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.3);
 }
 
-/* education section */
 #Education{
     margin-top: 30px;
 }
@@ -185,14 +181,15 @@ nav a{
     color: #a0a0a0;
     margin-bottom: 5px;
 }
-.degree,.Intermediate,.Intermediate{
+.degree,.Intermediate,.Matriculation{
     font-size: 1.2rem;
     font-weight: 500;
     margin-bottom: 5px;
+    color: #e0e0e0;
 }
 .college{
     font-style: italic;
-    color: #e0e0e0;
+    color: #a0a0a0;
     margin-bottom: 10px;
 }
 .edcFirst,.edcSecond,.edcThird{
