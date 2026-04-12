@@ -24,7 +24,11 @@ body{
     border: 1px solid #3a3a3a;
     border-radius: 16px;
     position: sticky;
-    top: 40px;
+    top: 20px;
+    height: auto;
+    max-height: calc(100vh - 8px);
+    overflow-y: auto;
+    margin-bottom: 40px;
 }
 .main-content{
     background-color: #2a2a2a;
@@ -291,7 +295,7 @@ nav a{
         font-size: 1.6rem;
     }
 
-    /* Skills */
+    
     .grid-container{
         grid-template-columns: repeat(auto-fit, minmax(90px, 1fr));
         gap: 15px;
@@ -302,7 +306,7 @@ nav a{
         padding: 12px;
     }
 
-    /* Projects */
+    
     .project-container{
         grid-template-columns: 1fr;
     }
